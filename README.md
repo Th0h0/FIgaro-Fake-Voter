@@ -4,7 +4,7 @@
 <p>&nbsp;</p>
 <a href="https://ibb.co/hyBBwgk"><img src="https://i.ibb.co/MsccQgb/Capture.png" alt="Capture" border="0"></a>
 <p>&nbsp;</p>
-# Program requirements : 
+# Program-requirements : 
 <ul>
 <li><span style="font-size: 13pt;">Latest version of Chrome&nbsp;</span></li>
 <li><span style="font-size: 13pt;">Python 3</span></li>
@@ -12,7 +12,7 @@
 <li><span style="font-size: 13pt;">Medium/High quality proxies</span></li>
 <li><span style="font-size: 13pt;">PyQt5 and Selenium librairies (You can download them with the following command : <em>pip install PyQt5 &amp; pip install</em> <em>Selenium)</em></span></li>
 </ul>
-# How to use the program :
+# How-to-use-the-program:
 <li><span style="font-size: 13pt;">Type/paste the figaro's survey URL in the required field</span></li>
 <li><span style="font-size: 13pt;">Select "Yes" or "No" depending on which votes you want the program to submit on the survey you chose</span></li>
 <li><span style="font-size: 13pt;">Use the slider widget in order to specify how many artificial votes you want the tool to submit</span></li>
