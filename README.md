@@ -4,20 +4,41 @@
 <p>&nbsp;</p>
 <a href="https://ibb.co/hyBBwgk"><img src="https://i.ibb.co/MsccQgb/Capture.png" alt="Capture" border="0"></a>
 <p>&nbsp;</p>
-# Program-requirements : 
-<ul>
-<li><span style="font-size: 13pt;">Latest version of Chrome&nbsp;</span></li>
-<li><span style="font-size: 13pt;">Python 3</span></li>
-<li><span style="font-size: 13pt;">PC running Windows</span></li>
-<li><span style="font-size: 13pt;">Medium/High quality proxies</span></li>
-<li><span style="font-size: 13pt;">PyQt5 and Selenium librairies (You can download them with the following command : <em>pip install PyQt5 &amp; pip install</em> <em>Selenium)</em></span></li>
-</ul>
-# How-to-use-the-program:
-<li><span style="font-size: 13pt;">Type/paste the figaro's survey URL in the required field</span></li>
-<li><span style="font-size: 13pt;">Select "Yes" or "No" depending on which votes you want the program to submit on the survey you chose</span></li>
-<li><span style="font-size: 13pt;">Use the slider widget in order to specify how many artificial votes you want the tool to submit</span></li>
-<li><span style="font-size: 13pt;">Paste your proxies, they can be public/private/scraped one, be careful though, since low quality proxies can make the software working extremly slowly or make it not working at all !&nbsp;</span></li>
-<li><span style="font-size: 13pt;">Last step : click on the big button LAUNCH :)&nbsp;</span></li>
-</ul>
-# How does the program work : 
-<p><span style="font-size: 13pt;">The program's GUI has been entirely made through <strong>PyQt5</strong>, mostly with Qt Designer tool.<br />The tool relies on <strong>Selenium</strong> library in order to emulate a browser able to submit the votes.<br />In order to be efficient, the program also relies on <strong>proxies</strong>. Indeed one proxy is randomly chosen for each single fake vote, from the list the user pastes, in order to make the web application believe that there are several differents users from differents zones submitting requests.</span></p>
+## Program Requirements : 
+
+- Latest version of Chrome
+
+- Python 3
+
+- PC running Windows
+
+- Medium/High quality proxies
+
+- PyQt5 and Selenium librairies (You can download them with the following command : 
+
+  ```pip install PyQt5 & pip install Selenium```
+
+
+## How to use the program :
+
+- Type/paste the figaro's survey URL in the required field
+
+- Select "Yes" or "No" depending on which votes you want the program to submit on the survey you chose
+
+- Use the slider widget in order to specify how many artificial votes you want the tool to submit
+
+- Paste your proxies, they can be public/private/scraped one, be careful though, since low quality proxies can make the software working extremly slowly or make it not working at all ! 
+
+- Last step : click on the big button LAUNCH :) 
+
+## How does the program work :
+- The program's GUI has been entirely made through PyQt5, mostly with Qt Designer tool.
+
+- The tool relies on Selenium library in order to emulate a browser able to submit the votes.
+
+- In order to be efficient, the program also relies on proxies. Indeed one proxy is randomly chosen for each single fake vote, from the list the user pastes, in order to make the web application believe that there are several differents users from differents zones submitting requests.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
