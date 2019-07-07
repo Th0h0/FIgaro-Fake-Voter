@@ -19,6 +19,7 @@
 
 
 ## How to use the program :
+- Double click on FakeVoter.py file, located in Figaro-Fake-Voter folder
 
 - Type/paste the figaro's survey URL in the required field
 
